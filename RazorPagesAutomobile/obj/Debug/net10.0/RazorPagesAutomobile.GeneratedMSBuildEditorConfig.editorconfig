@@ -30,6 +30,26 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
+[C:/Users/jcmul/csci340lab8/RazorPagesAutomobile/Pages/Automobile/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0b21vYmlsZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jcmul/csci340lab8/RazorPagesAutomobile/Pages/Automobile/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0b21vYmlsZVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jcmul/csci340lab8/RazorPagesAutomobile/Pages/Automobile/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0b21vYmlsZVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jcmul/csci340lab8/RazorPagesAutomobile/Pages/Automobile/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0b21vYmlsZVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jcmul/csci340lab8/RazorPagesAutomobile/Pages/Automobile/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0b21vYmlsZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/jcmul/csci340lab8/RazorPagesAutomobile/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,7 +1,12 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using RazorPagesAutomobile.Data;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddDbContext<RazorPagesAutomobileContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("RazorPagesAutomobileContext") ?? throw new InvalidOperationException("Connection string 'RazorPagesAutomobileContext' not found.")));
 
 var app = builder.Build();
 
