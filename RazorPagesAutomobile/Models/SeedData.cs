@@ -27,6 +27,7 @@ public static class SeedData
                 {
                     Make = "Ford",
                     Model = "Mustang",
+                    Bodystyle = "Coupe",
                     ReleaseDate = DateTime.Parse("1964-3-9"),
                     MSRP = 2368
                 },
@@ -35,6 +36,7 @@ public static class SeedData
                 {
                     Make = "Toyota",
                     Model = "Corolla",
+                    Bodystyle = "Compact",
                     ReleaseDate = DateTime.Parse("1966-11-3"),
                     MSRP = 1250
                 },
@@ -43,6 +45,7 @@ public static class SeedData
                 {
                     Make = "Honda",
                     Model = "Civic",
+                    Bodystyle = "Compact",
                     ReleaseDate = DateTime.Parse("1972-7-11"),
                     MSRP = 2073
                 },
@@ -51,6 +54,7 @@ public static class SeedData
                 {
                     Make = "Subaru",
                     Model = "Impreza",
+                    Bodystyle = "Sedan",
                     ReleaseDate = DateTime.Parse("1992-11-8"),
                     MSRP = 14000
                 }

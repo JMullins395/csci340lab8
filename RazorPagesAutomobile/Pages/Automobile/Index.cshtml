@@ -16,7 +16,7 @@
         <select asp-for="Automobile" asp-items="Model.Make">
             <option value="">All</option>
         </select>
-        <label>Title: <input type="text" asp-for="SearchString" /></label>
+        <label>Model: <input type="text" asp-for="SearchString" /></label>
         <input type="submit" value="Filter" />
     </p>
 </form>
@@ -30,6 +30,9 @@
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Automobile[0].Model)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Automobile[0].Bodystyle)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Automobile[0].ReleaseDate)
@@ -48,6 +51,9 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Model)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Bodystyle)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.ReleaseDate)
