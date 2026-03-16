@@ -6,6 +6,7 @@ using RazorPagesAutomobile.Models;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddValidation();
 builder.Services.AddRazorPages();
 builder.Services.AddDbContext<RazorPagesAutomobileContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("RazorPagesAutomobileContext") ?? throw new InvalidOperationException("Connection string 'RazorPagesAutomobileContext' not found.")));
